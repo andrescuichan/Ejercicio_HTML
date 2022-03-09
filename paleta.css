@@ -13,6 +13,7 @@ h1.titulo_secundario{
     text-align: center; 
     color: rgb(0, 0, 0);
     font-style: italic;
+    font-size: 25px;
 }
 
 table{
@@ -66,20 +67,26 @@ img.youtube{
     height:70px;
 }
 
-.caja_sorteo{
+div.caja_sorteo{
     width: 50%;
-    float: left;
+    height: 100%;
+    float: left; 
+    background-color: black;
+
 }
 
-.apartado_formulario{
+div.apartado_formulario{
     float: left; 
     /* border: 1px solid blue;*/
     margin: 15px;
+    color: white;
 }
 
-.apartado_descripcion{
+div.apartado_descripcion{
     float: left; 
-    width:100%;
+    width:99%;
+    color: white;
+    margin: 5px;
 }
 
 #texto_descrpcion{

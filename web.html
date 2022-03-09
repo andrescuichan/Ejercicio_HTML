@@ -8,11 +8,16 @@
     </head>
 
     <body>
-       
-        <h1 class="titulo_principal"> P&aacute;gina web con HTML</h1>
-        <hr width="75%" size="5px" color="Blue" >
-        <h2 id="creador"> Creado por </br>Flavio Andr&eacute;s Cuichan Flores</h2>
 
+        <header>
+            <h1 class="titulo_principal"> P&aacute;gina web con HTML</h1>
+            <hr width="75%" size="5px" color="Blue" >
+            <h2 id="creador"> Creado por </br>Flavio Andr&eacute;s Cuichan Flores</h2>
+        </header>
+        <nav id="creador">
+            <a href="https://andrescuichan.github.io/CV_HTML_CSS/pagina_cv.html" target="_blank">Ver ejercicio del CV</a>
+        </nav>
+         </br>
         <div>
              <table>
                 <caption><h1 class="titulo_secundario">TOP 5 ALBUM KPOP</h1></caption>
@@ -26,7 +31,7 @@
                         <th >M/V Youtube</th>      
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr class="body">
                         <td class="numero" style="color: #ff8061;"> 1 <b class="simbolo_arriba">▲</b></td>
@@ -85,15 +90,15 @@
         </br>
         <hr width="75%" size="5px" color="Blue">
         <marquee>
-            <h1 class="titulo_secundario">♫ GANA UNA ENTRADA PARA EL CONCIERTO DE BLACKPINK ♫</h1>
+            <h1 class="titulo_secundario">♫ RELLENA EL FORMULARIO Y GANA UNA ENTRADA!! ♫</h1>
         </marquee>
         </br>
 
         <form action="procesarPeticion.jsp" method="get"> 
-            <div >
+            <div style="width:100%; height:400px;border: 2px solid green">
                 <div class="caja_sorteo">
-                    <img src="blackpink.jpg " width= 100%>
-                </div>
+                    <img src="blackpink.jpg " width= 100% height= 100%;>
+                </div> 
                 <div class="caja_sorteo">
                     <div class="apartado_formulario">
                         <label for="nombre">Nombre: </label><br/>
@@ -105,9 +110,9 @@
                         <br/>
                     </div>
                     <div class="apartado_formulario">
-                        <label for="Bias">Miembro favorito: </label>
+                        <label for="Bias">Miembro favorita: </label>
                         <br/>
-                        <input type="checkbox" name="Bias" value="JI" checked/>Jisoo<br />	
+                        <input type="checkbox" name="Bias" value="JI" />Jisoo<br/>	
                         <input type="checkbox" name="Bias" value="J" />Jennie<br />	
                         <input type="checkbox" name="Bias" value="R" />Rose<br />	
                         <input type="checkbox" name="Bias" value="L" />Lisa<br />	
@@ -115,7 +120,7 @@
                     </div>
                     <div class="apartado_formulario">
                         Indique su edad:<br/>
-                        <input type="number" min="18" max="120" step="1" name="edadNumber" 
+                        <input type="number" min="10" max="120" step="1" name="edadNumber" 
                         placeholder="Edad" required/>
                     </div>
                     <div class="apartado_formulario">
