@@ -1,0 +1,1 @@
+Hay un apartado en la web ¨Ver erjercicio del CV¨ que te lleva al ejercicio del CV con la dirrección de github pages.
